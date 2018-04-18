@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/HotelBdTest">
+  <Resource 
+      MaxActive="10" 
+      auth="Container" 
+      driverClassName="com.mysql.jdbc.Driver" 
+      maxIdle="3" 
+      maxWait="3000" 
+      name="poolHotel" 
+      password="Arkangel" 
+      type="javax.sql.DataSource" 
+      url="jdbc:mysql://localhost:3306/hotel?zeroDateTimeBehavior=convertToNull" 
+      username="root">
+    </Resource>
+</Context>
